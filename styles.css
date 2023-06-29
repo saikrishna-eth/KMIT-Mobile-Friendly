@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+.top-header {
+    background-color:#17A2B8;
+    width: 100%;
+    height: 75px;
+    margin-bottom: 20px;
+}
+body {
+    margin: 0px;
+}
+.kmit-logo {
+    height: 36.75px;
+    width: 47.5px;
+    margin: 0;
+}
+.navbar {
+    margin-top: -15px;
+}
+.navbar-len{
+    width:1020px;
+}
+.collage-name {
+    display: none;
+    font-size: 12px;
+    margin-left: -25px;
+    color:#13c592;
+    font-weight: bold;
+    width: 200px;
+    word-wrap: break-word;
+}
+
+@media (max-width:726px){
+    .collage-name{
+        display: block;
+    }
+}
+
+.tag-line {
+    font-size: 8px;
+}
+
+.navbar-brand img, .navbar-brand p {
+    display: inline;
+  }
+
+.collage-code {
+    background-color: #118799;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 0px 2px 1px 2px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.eamcet-code {
+    font-weight: 600;
+    color: #000000;
+    display: inline;
+}
+
+.collage-rank {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.collage-rank-naac {
+    width: 33.9px;
+    height: 22.4px;
+}
+.header-wrapper {
+    display: flex;
+    justify-content: left;
+    background-color: #ffffff;
+    height: 30px;
+    align-items: flex-start;
+    padding-top: 2px;
+}
+.header-wrapper img {
+    padding: 0 2px 0 2px;
+}
+.collage-rank-nic {
+    padding-top: 3px;
+        width: 45px;
+        height: 19.5px;
+}
+.collage-rank-nba {
+    width: 53.2px;
+    height: 22px;
+}
+.collage-rank-ariia {
+    width: 33.9px;
+    height: 22.4px;
+}
+.collage-rank-aicte {
+    width: 26px;
+    height: 25.5px;
+}  
+.contact-info {
+    height: 18px;
+    width: 18px;
+}
+.contact {
+    margin-top: -15px;
+    display: flex;
+    justify-content:center;
+    font-size: smaller;
+    align-items: end;
+    color: #ffffff;
+    padding: 0 10px 0 0px;
+}
+
+.home-logo {
+    display: none;
+}
+.collage-name-large {
+    display: none;
+}
+.collage-tagline-large {
+    display: none;
+}
+.placements {
+    display: none;
+}
+.placements ~ a {
+    display: none;
+}
+
+
+@media (min-width:1280px){
+    .top-header{
+        height: 120px;
+    }
+    .kmit-logo {
+        display: none;
+    }
+    .home-large{
+        width: 100%
+    }
+    .home-logo {
+        display: inline-block;
+        width: 95px;
+        position: relative;
+        bottom: 35px;
+        left: 100px;
+        height: 73.5px;
+    }
+    .collage-name-large{
+        display:inline-block;
+        text-decoration: none;
+        font-size:22px;
+        font-weight: bold;
+        color: #ffffff;
+        position: relative;
+        bottom: 50px;
+        left: 120px;
+    }
+    .collage-tagline-large {
+        display: inline-block;
+        text-decoration: none;
+        font-size:12px;
+        color: #07f667;
+        position: relative;
+        bottom: 30px;
+        font-weight: 600;
+        right: 65px;
+    }
+    .placements {
+        font-family: 'Permanent Marker', cursive;
+        display: inline-block;
+        text-decoration: none;
+        font-size:20px;
+        color: #ffffff;
+        position: relative;
+        bottom: 50px;
+        word-spacing: 1px;
+        right: -160px;
+    }
+    .placements ~ a {
+        font-family: 'Permanent Marker', cursive;
+        display: inline-block;
+        text-decoration: none;
+        font-size:20px;
+        color: #fff314;
+        position: relative;
+        bottom: 20px;
+        word-spacing: 1px;
+        right: 60px;
+    }
+    .contact, .contact-info{
+        position: relative;
+        top: -22px;
+        color: #000000;
+        justify-content: right;
+    }
+    .collage-rank{
+        position: relative;
+        bottom: 25px;
+        font-size: 15px;
+        font-weight: bold;
+        color: #000000;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.marquee-tag {
+    width: 100%;
+    height: 25px;
+    background-color: #e9e9e9;
+    box-shadow: 0 2px 4px rgba(231, 231, 231, 0.5);
+}
+.marquee-text {
+    margin-top: -2px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #131313;
+    
+}
+.testmonials {
+    margin-top: 20px;
+    
+}
+.nav-link {
+    font-size: 12px;
+    background-color: #17A2B8;
+    color: #ffffff;
+    padding-left: 10px;
+    width: 100%;
+}
